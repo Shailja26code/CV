@@ -1,0 +1,98 @@
+ 
+html, body {
+    width:  auto;
+    height: 100%;
+    margin: 2% 10%;
+    padding-bottom: 2%;
+    background: rgb(204,204,204);    
+}
+.grid-container {
+    height:auto;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 310px auto;
+    background-color: rgb(5, 54, 247);
+    padding: 10px;
+    border: solid transparent;
+    border-radius: 10px 50px;
+    /* border-color: aliceblue; */
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+.grid-item {
+    background-color: rgba(151, 209, 244, 0.8);
+    border: 1px solid transparent;
+    border-radius: 10px 50px;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+#photo
+{ 
+    height: 300px;
+    width: 270px;  
+    border-radius: 50%;   
+}
+.titles{
+    display: block;
+    font-size: x-large;
+    padding-top: 20px;
+    text-align: left; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(7, 0, 0);
+    list-style-type: inherit;
+
+}
+ol{
+    text-align: left;
+    padding-left: 0px;
+}
+ul{
+    text-align: left;
+    padding-left: 0px;
+}
+#head{
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(5, 54, 247);
+    max-width: 300px;
+}
+#profession
+{
+    font-size: 1.4em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    position:relative;
+    padding-left: 100px;
+}
+.personalinfo{
+    font-size: 1em;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    color: rgb(24, 35, 165);   
+}
+#leftside{
+    display: block;
+    font-size: x-large;
+    padding-top: 20px;
+    text-align: left; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(70, 76, 120);
+    list-style-type: inherit;
+}
+ul li{
+    font-size: medium;
+    text-decoration-line:none;
+    color: rgb(24, 35, 165);
+}
+.txt{
+    font-size: medium;
+    padding-top: 40px;
+    text-decoration-line:none;
+    color: rgb(24, 35, 165);
+}
+.hr{
+    border-top: 1px solid rgb(5, 54, 247);
+}
